@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: wheat;
+}
+header {
+    display: flex;
+    font-size: 62.5%;
+    height: 55px;
+    background-color: salmon;
+    justify-content: center;
+    align-items:center;
+    padding: 5px;
+    gap: 5px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height:50px;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+.name {
+    align-content: center;
+    font-style: italic;
+    font-size: 7em;
+    font-weight: bold;
+    color: white;
+}
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+.buton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+    width: 100px;
+    background-color: burlywood;
+    border-radius: 30px;
+    font-size: 1.5em;
+}
+    
+.section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin-top: 5px;
+    align-items: center;
+}
+.sections:active {
+    color: purple;
+}
+.sections:hover {
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-size: 62.5%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px;
+}
+
+.lateral-left, .lateral-right {
+    width: 200px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.lateral-left img, .lateral-right img {
+    width: 100%;
+    height: auto;
+}
+.cuerpo-de-noticias {
+    flex: 1;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.noticia img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.theme {
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    font-size: 1.7em;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+footer {
+    display: flex;
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+    gap: 10px;
+    font-size: 1.5em;
+}
+.contacto {
+    color: blueviolet;
+
+}
+.contacto:active {
+    color: cyan;
+}
+.contacto:hover {
+    color: white;
+}
