@@ -36,36 +36,76 @@ header {
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: start;
     font-size: 62.5%;
 }
 .lateral-left, .lateral-right {
-    width: 200px;
+    width: 150px;
     display: flex;
     flex-direction: column;
     background-color: brown;
-    gap: 5px;
+    gap: 10px;
+    margin: 10px;
+    margin-top: 10px;
 }
 .lateral-left img, .lateral-right img {
-    height: auto;
     width: 100%;
+    height: auto;
 }
 .main-notice {
     flex: 1;
     max-width: 800px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;  
 }
 .notice img {
-    width: 250px;
-    max-width: 250px;
+    width: 370px;
+    max-width: 400px;
     height: auto;
     display: block;
     margin: auto;
 }
 .title {
+    font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-
+    font-size: 3.5em;
+}
+.theme {
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    font-size: 2.8em;
+}
+.text {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+}
+footer {
+    display: flex;
+    font-size: 62.5%;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    gap: 10px;
+    
+}
+.contact {
+    font-size: 2.5em;
+    color: blueviolet;
+    font-weight: bold;
+}
+.contact:active {
+    color: cyan;
+}
+.contact:hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
