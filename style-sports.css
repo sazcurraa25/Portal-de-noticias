@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    background-color: wheat;
+    margin: 0;
+}
+header {
+    display: flex;
+    font-size: 62.5%;
+    height: 55px;
+    background-color: salmon;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+.logo {
+    display: flex;
+    justify-items: center;
+}
+.logo img {
+    height: 50px;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+}
+.name {
+    font-size: 7em;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 62.5%;
+}
+.lateral-left, .lateral-right {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    gap: 5px;
+}
+.lateral-left img, .lateral-right img {
+    height: auto;
+    width: 100%;
+}
+.main-notice {
+    flex: 1;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;  
+}
+.notice img {
+    width: 250px;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
