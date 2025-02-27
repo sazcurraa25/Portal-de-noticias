@@ -153,16 +153,15 @@ footer {
     }
     .section {
             display: flex;
-            flex-direction: column; /* Apila los botones en columna */
-            justify-content: center; /* Centra los botones */
-            align-items: center; /* Centra en el eje vertical */
-            width: 100%; /* Asegura que ocupe todo el ancho disponible */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
     }
     
     .buton {
-            width: 80%; /* Ajusta el ancho del botón para que se vea mejor en móviles */
-            text-align: center; /* Centra el texto dentro del botón */
+            width: 80%;
+            text-align: center;
     }
-    }
-    
 }
+    
