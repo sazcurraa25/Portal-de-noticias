@@ -145,7 +145,7 @@ footer {
         width: auto;
         height: auto;
     }
-    .main-notice {
+    .cuerpo-de-noticias {
         grid-template-columns: 1fr;
         margin: auto;
     }
@@ -165,7 +165,8 @@ footer {
         padding: 10px 20px;
     }
     .title-section {
-        font-size: auto;
+        font-size: 4em;
+        text-align: center;
     }
 }
     
