@@ -137,36 +137,34 @@ footer {
 .contacto:hover {
     color: white;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
+    .lateral-left, .lateral-right {
+        display: none;
+    }
     header {
         width: auto;
         height: auto;
     }
-    .cuerpo-de-noticias {
+    .main-notice {
         grid-template-columns: 1fr;
         margin: auto;
     }
-    .lateral-left, .lateral-right {
-        display: none;
-    }
     .section {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
-    
-    .buton {
-            width: 80%;
-            text-align: center;
+    .sections {
+        width: 80%;
+        min-width: 150px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        padding: 10px 20px;
     }
-}
-    
-
-.contacto:active {
-    color: cyan;
-}
-.contacto:hover {
-    color: white;
+    .title-section {
+        font-size: auto;
+    }
 }
