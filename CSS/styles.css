@@ -91,10 +91,12 @@ body {
 }
 .cuerpo-de-noticias {
     max-width: 800px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 .noticia img {
     width: 100%;
@@ -145,9 +147,10 @@ footer {
         width: auto;
         height: auto;
     }
-    .main-notice {
+    .cuerpo-de-noticias {
         grid-template-columns: 1fr;
         margin: auto;
+        flex-wrap: wrap;
     }
     .section {
         display: flex;
@@ -163,9 +166,6 @@ footer {
         justify-content: center;
         display: flex;
         padding: 10px 20px;
-    }
-    .title-section {
-        font-size: auto;
     }
 }
     

@@ -178,6 +178,7 @@ a {
         padding: 10px 20px;
     }
     .title-section {
-        font-size: auto;
+        font-size: 4em;
+        text-align: center;
     }
 }
