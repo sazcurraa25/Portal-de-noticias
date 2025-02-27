@@ -37,24 +37,18 @@ header {
     color: white;
 }
 .sections {
+    background-color: burlywood;
     display: flex;
+    border-radius: 30px;
     justify-content: center;
     align-items: center;
-    font-size: 1em;
+    font-size: 1.7em;
     font-weight: bold;
     color: black;
+    gap: 10px;
+    padding: 10px 20px;
 }
-.buton {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    height: 30px;
-    width: 100px;
-    background-color: burlywood;
-    border-radius: 30px;
-    font-size: 1.5em;
-    text-align: center;
-}
+
     
 .section {
     display: flex;
