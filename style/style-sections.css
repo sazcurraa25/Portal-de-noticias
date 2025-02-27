@@ -7,18 +7,28 @@ body {
 header {
     display: flex;
     font-size: 62.5%;
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-color: salmon;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items:center;
     padding: 10px;
-    gap: 5px;
+    gap: 10px;
     flex-wrap: wrap;
+    margin-right: 0;
+    
+}
+.contacto {
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    gap: 10px;
+    padding: 10px;
 }
 .logo {
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
 }
 .logo img {
     height: 50px;
