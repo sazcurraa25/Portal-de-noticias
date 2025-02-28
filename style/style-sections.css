@@ -29,6 +29,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 .logo img {
     height: 50px;
@@ -167,6 +168,9 @@ a {
     header {
         width: auto;
         height: auto;
+    }
+    .section {
+        margin: 10px;
     }
     .main-notice {
         grid-template-columns: 1fr;
