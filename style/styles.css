@@ -1,5 +1,7 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 200;
+    font-style: normal;
     margin: 0;
     background-color: wheat;
 }
@@ -37,21 +39,24 @@ header {
     background-color: white;
 }
 .name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
     display: flex;
     align-items: center;
-    font-style: italic;
     font-size: 7em;
-    font-weight: bold;
     color: white;
 }
 .sections {
     background-color: burlywood;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
     font-size: 1.7em;
-    font-weight: bold;
     color: black;
     gap: 10px;
     padding: 10px 20px;
@@ -112,25 +117,34 @@ body {
     margin: 0 auto;
 }
 .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
     font-size: 2.5em;
 }
 .theme {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    font-style: normal;
     color: grey;
     font-size: 1.7em;
 }
 .text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 1.5em;
 }
 
+
 .contacto {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: black;
     gap: 10px;
     padding: 10px;
-    font-weight: bold;
+    
 
 }
 .contacto:active {
