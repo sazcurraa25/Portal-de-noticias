@@ -7,27 +7,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
     <title>Contactanos</title>
+    <link rel="stylesheet" href="../../style/style-contact-us.css">
 </head>
 <body>
     <header>
         <div class="logo">
             <div class="circle">
-                <img src="img/logo.png" alt="Noticias 1">
+                <img src="../../img/logo.png" alt="Noticias 1">
             </div>
             <h2 class="name">Noticias 1 </h2>
         </div>
         <div class="speciall-buttons">
-            <a href="index.html" class="contacto">Ultimas noticias</a>
-            <a href="body/footer/review.html" class="contacto">Reviews</a>
-            <a href="body/footer/about-us.html" class="contacto">Sobre nosotros</a>
-            <a href="body/footer/contact-us.html" class="contacto">Contactanos</a>
+            <a href="../../index.html" class="contacto">Ultimas noticias</a>
+            <a href="../footer/review.html" class="contacto">Reviews</a>
+            <a href="../footer/about-us.html" class="contacto">Sobre nosotros</a>
+            <a href="../footer/contact-us.html" class="contacto">Contactanos</a>
         </div>
     </header>
-    <body>
-        <h1 class="title">Contactanos para cualquier duda o consulta</h1>
-        <div class="information-packages">
-
-        </div>
+    <body class="cuerpo"> 
+        <form>
+            <h2 class="title">CONTACTANOS PARA CUALQUIER CONSULTA O APORTE</h2>
+            <div class="information-packages">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <label for="l-name">Apellido</label>
+                <input type="text" name="l-name" id="name" placeholder="Apellido">
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                <label for="e-mail">E-Mail</label>
+                <input type="email" name="email" id="email" placeholder="E-Mail">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Dejenos su consulta y/o aporte"></textarea>
+              <div class="form-txt">
+                <a href="../footer/about-us.html">Sobre nosotros</a>
+                <a href="../../index.html">Últimas noticias</a>
+              </div>
+              <input type="submit" class="btn" value="Enviar">
+            </div>
+        </form>
     </body>
 </body>
 </html>
