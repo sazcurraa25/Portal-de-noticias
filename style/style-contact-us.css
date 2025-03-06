@@ -161,7 +161,7 @@ input::placeholder, textarea::placeholder {
     }
     .name {
         text-align: left;
-        font-size: 4em;
+        font-size: 3em;
     }
     .circle {
         height: 50px;
