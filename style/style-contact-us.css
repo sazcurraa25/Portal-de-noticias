@@ -1,28 +1,71 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-size: 62,5%;
+}
+
+body {
     background-color: wheat;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
+    font-family: "Poppins", sans-serif;
 }
 header {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
     background-color: salmon;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: 62,5%;
 }
 .logo {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
-    margin: 0;
-    padding: 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.8em;
+    color: white;
+}
+.special-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.contacto {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 0.4em;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.contacto:hover {
+    color: white;
 }
 .cuerpo {
     width: 100%;
@@ -31,36 +74,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-}
-.logo img {
-    height: 50px;
-    margin: 0;
-    padding: 0;
-}
-.circle {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-}
-.name {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 2.5em;
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-.speciall-buttons {
-    font-size: 62,5%;
-    font-size: 0.9em;
-    gap: 30px;
-    padding: 10px;
-
+    margin-top: 100px;
 }
 form {
     margin: 20px auto;
@@ -116,25 +130,12 @@ input::placeholder, textarea::placeholder {
     font-weight: 600;
     text-decoration: none;
 }
-.contacto {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 0.8em;
-    font-size: 62,5%;
-    text-decoration: none;
-    color: black;
-}
-.contacto:hover {
-    color: white;
-}
 .btn {
     font-weight: bold;
 }
 .btn:hover {
     background-color: white;
 }
-
 @media (min-width:800px) {
     header {
         height: auto;
@@ -145,6 +146,18 @@ input::placeholder, textarea::placeholder {
         justify-content: space-between;
         align-items: center;
         gap: 30px;
+    }
+    .cuerpo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 100vh;
+        margin-top: 280px;
+        margin-left: 290px;
+        margin-bottom: 200px;
     }
     .name {
         text-align: left;
