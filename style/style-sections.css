@@ -1,6 +1,6 @@
 body {
     font-size: 62.5%;
-    background-color: wheat;
+    background-color: #f9f4ed;
     margin: 0;
 }
 header {
@@ -8,7 +8,7 @@ header {
     font-size: 62.5%;
     width: 100%;
     height: auto;
-    background-color: salmon;
+    background-color: #af695c;
     justify-content: space-between;
     align-items:center;
     padding: 10px;
@@ -48,15 +48,15 @@ header {
 .name {
     font-size: 7em;
     font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+    font-weight: 700;
+    font-style: italic;
     color: white;
 }
 .title-section {
     display: flex;
     justify-content: center;
     align-items: left;
-    color: orangered;
+    color: #2a2a2a;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -75,7 +75,7 @@ header {
     width: 150px;
     display: flex;
     flex-direction: column;
-    background-color: brown;
+    background-color: #eaeaea;
     gap: 10px;
     margin: 10px;
     margin-top: 10px;
@@ -111,7 +111,7 @@ header {
     font-family: "Poppins", sans-serif;
     font-weight: 550;
     font-style: normal;
-    color: grey;
+    color: #ec9484;
     font-size: 2.8em;
 }
 .text {
@@ -140,14 +140,14 @@ footer {
     color: cyan;
 }
 .contact:hover {
-    color: white;
+    color: #af695c;
 }
 a {
     text-decoration: none;
     color: white;
 }
 .sections {
-    background-color: burlywood;
+    background-color: #eaeaea;
     display: flex;
     border-radius: 30px;
     justify-content: center;
@@ -174,7 +174,7 @@ a {
     color: purple;
 }
 .sections:hover {
-    color: white;
+    color: #af695c;
 }
 @media (max-width: 768px) {
     .lateral-left, .lateral-right {
