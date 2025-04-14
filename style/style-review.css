@@ -67,43 +67,6 @@ textarea {
     color: white;
 }
 @media (min-width:800px) {
-    header {
-        height: auto;
-        width: 100vw;
-        padding: 20px 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 30px;
-    }
-    .name {
-        text-align: left;
-        font-size: 3em;
-    }
-    .circle {
-        height: 50px;
-        width: 50px;
-    }
-    .logo img {
-        height: 50px;
-    }
-    .contacto {
-        font-size: 62,5%;
-        font-size: 0.8em; 
-        gap: 10px;
-        padding: 10px;
-    }
-    .logo {
-        justify-content: flex-start;
-        padding-left: 20px;
-    }
-    .speciall-buttons  {
-        justify-content: flex-end;
-        gap: 40px;
-        padding: 20px;
-        font-size: 1.2em;
-    }
     .cuerpo {
         width: 100%;
         max-width: 800px;

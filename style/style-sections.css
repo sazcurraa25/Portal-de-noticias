@@ -2,6 +2,12 @@
     grid-template-columns: 1fr;
     margin: auto;
 }
+.title-sections {
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    text-align: center;
+}
 @media (min-width: 800px) {
     .main-notice {
         max-width: 800px;
@@ -31,13 +37,21 @@
         font-weight: 550;
         font-style: normal;
         color: #ec9484;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     .text {
         font-size: 62.5%;
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.4em;
+        font-size: 1em;
+    }
+    .title-sections {
+        font-style: italic;
+        font-family: "Poppins", sans-serif;
+        font-weight: 550;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

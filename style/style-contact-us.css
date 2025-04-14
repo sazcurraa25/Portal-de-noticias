@@ -19,7 +19,7 @@ form {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
-    font-size: 62,5%;
+    font-size: 62.5%;
     font-size: 0.7em;
 }
 .information-packages {
@@ -28,7 +28,7 @@ form {
     text-align: left;
 }
 .title {
-    font-size: 62,5%;
+    font-size: 62.5%;
     color: #2a2a2a;
     font-size: 2em;
 }
@@ -81,52 +81,25 @@ input::placeholder, textarea::placeholder {
         margin-left: 290px;
         margin-bottom: 200px;
     }
-    .name {
-        text-align: left;
-        font-size: 3em;
-    }
-    .circle {
-        height: 50px;
-        width: 50px;
-    }
-    .logo img {
-        height: 50px;
-    }
-    .contacto {
-        font-size: 62,5%;
-        font-size: 0.8em; 
-        gap: 10px;
-        padding: 10px;
-    }
-    .logo {
-        justify-content: flex-start;
-        padding-left: 20px;
-    }
-    .speciall-buttons  {
-        justify-content: flex-end;
-        gap: 40px;
-        padding: 20px;
-        font-size: 1.2em;
-    }
     input {
-        font-size: 62,5%;
+        font-size: 62.5%;
         font-size: 1.2em;
     }
     label {
-        font-size: 62,5%;
+        font-size: 62.5%;
         font-size: 1.4em;
     }
     .title {
-        font-size: 62,5%;
+        font-size: 62.5%;
         font-size: 3em;
         font-weight: 900;
     }
     .form-txt{
-        font-size: 62,5%;
+        font-size: 62.5%;
         font-size: 1.4em;
     }
     #message {
-        font-size: 62,5%;
+        font-size: 62.5%;
         font-size: 1.4em;
     }
 }
