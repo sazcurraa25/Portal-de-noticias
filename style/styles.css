@@ -21,6 +21,7 @@ header {
     left: 0;
     z-index: 1000;
     font-size: 62,5%;
+    
 }
 .logo {
     display: flex;
@@ -56,6 +57,9 @@ a {
     font-size: 1.8em;
     color: white;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .special-buttons {
     display: flex;
@@ -99,9 +103,9 @@ a {
         margin-top: 10px;
     }
     .lateral-left img, .lateral-right img {
-        width: 100%;
-        height: auto;
-        box-shadow: 0 4px 8px (rgba(0, 0, 0, 0.1));
+        width: 95px;
+        height: 380px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     header {
         height: auto;
