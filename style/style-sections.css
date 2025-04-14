@@ -2,11 +2,34 @@
     grid-template-columns: 1fr;
     margin: auto;
 }
+.title-section {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    color: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 62.5%;
+    font-size: 3.5em;
+    margin: 0;
+    text-decoration: underline;
+}
 .title-sections {
     font-style: italic;
     font-family: "Poppins", sans-serif;
     font-weight: 550;
     text-align: center;
+}
+.notice img {
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+a{
+    color: #ec9484;
 }
 @media (min-width: 800px) {
     .main-notice {
@@ -47,11 +70,17 @@
         font-size: 1em;
     }
     .title-sections {
-        font-style: italic;
-        font-family: "Poppins", sans-serif;
-        font-weight: 550;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: left;
+        color: #2a2a2a;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 62.5%;
+        font-size: 4.5em;
+        margin: 0;
+        text-decoration: underline;
     }
+
 }
