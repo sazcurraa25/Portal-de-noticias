@@ -1,8 +1,7 @@
-.cuerpo-de-noticias {
+.main-notice {
     grid-template-columns: 1fr;
     margin: auto;
 }
-
 @media (min-width: 800px) {
     .main-notice {
         max-width: 800px;
@@ -24,7 +23,7 @@
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: italic;
-        font-size: 3.5em;
+        font-size: 1.5em;
     }
     .theme {
         font-size: 62.5%;
@@ -32,13 +31,13 @@
         font-weight: 550;
         font-style: normal;
         color: #ec9484;
-        font-size: 2.8em;
+        font-size: 1.3em;
     }
     .text {
         font-size: 62.5%;
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 2.2em;
+        font-size: 1.4em;
     }
 }
