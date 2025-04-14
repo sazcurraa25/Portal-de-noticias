@@ -4,38 +4,41 @@
 }
 
 @media (min-width: 800px) {
-    .cuerpo-de-noticias {
+    .main-notice {
         max-width: 800px;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        padding: 20px;
-        margin: auto;
+        padding: 20px;  
     }
-    .noticia img {
-        width: 100%;
-        max-width: 250px;
+    .notice img {
+        width: 370px;
+        max-width: 400px;
         height: auto;
         display: block;
         margin: 0 auto;
     }
     .title {
+        font-size: 62.5%;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: italic;
-        font-size: 2.5em;
+        font-size: 3.5em;
     }
     .theme {
+        font-size: 62.5%;
         font-family: "Poppins", sans-serif;
         font-weight: 550;
         font-style: normal;
         color: #ec9484;
-        font-size: 1.7em;
+        font-size: 2.8em;
     }
     .text {
+        font-size: 62.5%;
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.5em;
+        font-size: 2.2em;
     }
 }
